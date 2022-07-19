@@ -82,8 +82,8 @@ function myKeyDown(e)
 		if(ballY >=0)
     {
         ballY = ballY - blockImageHeight;
-        console.log("Altura da imagem do bloco" + block_image_height);
-        console.log("Quando a tecla direcional baixo e pressionada, X = "+ball_x +",Y = "+ball_y);
+        console.log("Altura da imagem do bloco" + blockImageHeight);
+        console.log("Quando a tecla direcional baixo e pressionada, X = "+ballX +",Y = "+ballY);
 canvas.remove(ballObj);
 newImage();
   }
@@ -94,8 +94,8 @@ newImage();
 		if(ballY<=450)
     {
         ballY = ballY + blockImageHeight;
-        console.log("Altura da imagem do bloco" + block_image_height);
-        console.log("Quando a tecla direcional baixo e pressionada, X = "+ball_x +",Y = "+ball_y);
+        console.log("Altura da imagem do bloco" +blockImageHeight);
+        console.log("Quando a tecla direcional baixo e pressionada, X = "+ballX+",Y = "+ballY);
 canvas.remove(ballObj);
 newImage();
     }
@@ -106,8 +106,8 @@ newImage();
 		if(ballX >5)
 		{
 			ballX = ballX - blockImageHeight;
-        console.log("Altura da imagem do bloco" + block_image_height);
-        console.log("Quando a tecla direcional baixo e pressionada, X = "+ball_x +",Y = "+ball_y);
+        console.log("Altura da imagem do bloco" + blockImageHeight);
+        console.log("Quando a tecla direcional baixo e pressionada, X = "+ballX +",Y = "+ballY);
 canvas.remove(ballObj);
 newImage();
 		}
@@ -118,8 +118,8 @@ newImage();
 		if(ballX <=1050)
 		{
 			ballX = ballX + blockImageHeight;
-        console.log("Altura da imagem do bloco" + block_image_height);
-        console.log("Quando a tecla direcional baixo e pressionada, X = "+ball_x +",Y = "+ball_y);
+        console.log("Altura da imagem do bloco" + blockImageHeight);
+        console.log("Quando a tecla direcional baixo e pressionada, X = "+ballX +",Y = "+ballY);
 canvas.remove(ballObj);
 newImage();
 		}
